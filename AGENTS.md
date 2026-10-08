@@ -4,6 +4,14 @@
 
 Maintain a readable portfolio of the owner's ethical hacking labs using ScopeLog exports and other supplied assessment records. When the owner requests an import, complete the entry and update the repository index in the same change.
 
+## Standing workflow preference
+
+The owner explicitly requested on 2026-10-08 that future ScopeLog reports, pasted assessment documents, and screenshots of similar ethical hacking lab reports be treated as requests to create or update an entry in `lawsonisthebest/ethical-hacking-real-examples`, without requiring the owner to repeat the workflow. Apply this when the material is clearly a lab assessment; honor any different instruction supplied with it.
+
+Use the established Cyber Heroes structure and `templates/lab-writeup.md`, organize the findings, evidence, and thought process, preserve the supplied source, update the homepage index, and publish through the available authorized GitHub connection. If a report screenshot only contains part of a document, use only its readable content and mark missing or unreadable details. Save screenshot-derived text as `source/report-transcription.md`, label it as a partial transcription where applicable, and retain the supplied image when accessible; do not call it a complete original ScopeLog export. Update links to match the actual source filename.
+
+This preference describes chat-triggered imports, not background monitoring of ScopeLog.
+
 ## Import procedure
 
 1. Read the root README, this file, `docs/scopelog-workflow.md`, and any existing entry that matches the supplied lab.
